@@ -506,13 +506,13 @@ const caseListState = reactive({
             type: '代理人',
             tip: true,
         },
-        {
-            personId: 3,
-            projectName: '巨如集团、胡立勇集资诈骗案',
-            status: 'DISSENT',
-            type: '代理人',
-            tip: false,
-        },
+        // {
+        //     personId: 3,
+        //     projectName: '巨如集团、胡立勇集资诈骗案',
+        //     status: 'DISSENT',
+        //     type: '代理人',
+        //     tip: false,
+        // },
         {
             personId: 4,
             projectName: '贝米钱包非法吸收公众存款案',
@@ -520,13 +520,13 @@ const caseListState = reactive({
             type: '后台导入',
             tip: false,
         },
-        {
-            personId: 5,
-            projectName: '快鹿集资诈骗案件',
-            status: 'DISSENT',
-            type: '本人',
-            tip: false,
-        },
+        // {
+        //     personId: 5,
+        //     projectName: '快鹿集资诈骗案件',
+        //     status: 'DISSENT',
+        //     type: '本人',
+        //     tip: false,
+        // },
     ],
 })
 

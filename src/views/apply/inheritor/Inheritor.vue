@@ -304,7 +304,7 @@
                     <div class="info_item">
                         <div class="title_text">姓名</div>
                         <div class="content_text">
-                            <span>钱雅菲</span>
+                            <span>张三</span>
                         </div>
                     </div>
                     <div class="info_item">

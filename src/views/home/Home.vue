@@ -244,7 +244,7 @@
                 <div class="tab_title" :class="item.id == state.tabActive">
                     {{ item.title }}
                 </div>
-                <div class="tab_message">
+                <div class="tab_message" v-if="item.message">
                     <span>{{ item.message }}</span>
                 </div>
             </div>
@@ -297,12 +297,12 @@ const state = reactive({
         {
             id: 0,
             title: '我的案件',
-            message: 22,
+            message: 2,
         },
         {
             id: 1,
             title: '申请记录',
-            message: 99,
+            message: 0,
         },
     ],
 })
@@ -310,7 +310,7 @@ const state = reactive({
 onMounted(() => {
     // TODO: 后面去掉
     userState.userId = '1'
-    userState.name = '钱雅菲'
+    userState.name = '张三'
 
     return
 

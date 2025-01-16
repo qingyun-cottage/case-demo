@@ -320,7 +320,7 @@ const messageState = reactive({
         {
             id: 1,
             type: 'send',
-            name: '钱雅菲',
+            name: '张三',
             time: '2023-09-28 23:27',
             msg: '在我的后园，可以看见墙外有两株树，一株是枣树，还有一株也是枣树。',
         },
@@ -334,7 +334,7 @@ const messageState = reactive({
         {
             id: 3,
             type: 'send',
-            name: '钱雅菲',
+            name: '张三',
             time: '2023-09-29 23:27',
             msg: '然而现在却非常之蓝，闪闪地眨着几十个星星的眼，冷眼。',
         },
