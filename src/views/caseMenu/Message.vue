@@ -336,7 +336,7 @@ const messageState = reactive({
             type: 'send',
             name: '张三',
             time: '2023-09-29 23:27',
-            msg: '然而现在却非常之蓝，闪闪地眨着几十个星星的眼，冷眼。',
+            msg: '请问这个案件的具体情况如何？',
         },
         {
             id: 2,
