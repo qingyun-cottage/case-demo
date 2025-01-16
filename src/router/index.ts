@@ -175,7 +175,7 @@ const routes: Array<RouteRecordRaw> = [
     {
         // 定义404路由
         path: '/404',
-        component: () => import('../pages/notfound.vue'),
+        component: () => import('@/pages/notfound.vue'),
     },
     {
         // 匹配为定义路由然后重定向到404页面
