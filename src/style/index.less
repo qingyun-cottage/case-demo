@@ -1,0 +1,83 @@
+:root:root {
+    // --van-nav-bar-background: #0e86ff;
+    // --van-nav-bar-text-color: #fff;
+    // --van-nav-bar-icon-color: #fff;
+
+    // 导航栏高度
+    --van-nav-bar-height: 48px;
+    // 导航栏背景色
+    --van-nav-bar-background: none;
+
+    // 单元格padding
+    --van-cell-vertical-padding: 16px;
+    // 单元格右侧箭头颜色
+    --van-cell-right-icon-color: #c7cad1;
+    // 单元格border颜色
+    --van-cell-border-color: #f0f0f2;
+
+    // 输入框placeholder颜色
+    --van-field-placeholder-text-color: #c7cad1;
+    // 输入框文字颜色
+    --van-field-input-text-color: #292c33;
+    // 输入框限制数量文字颜色
+    --van-field-word-limit-color: #c7cad1;
+}
+
+body {
+    font-family: BlinkMacSystemFont, HarmonyOS Sans SC, PingFang SC, system-ui,
+        -apple-system, Helvetica, 'Segoe UI', 'Open Sans', Arial, sans-serif;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    // 字体
+}
+
+.icon_custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// TODO:
+.uploader_custom {
+    .upload_add {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid var(--color-border-secondary, #f0f0f2);
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .van-uploader__wrapper {
+        gap: 9px;
+    }
+    .van-uploader__preview {
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 0;
+    }
+    .van-uploader__file {
+        width: 100%;
+        height: 100%;
+    }
+    .van-uploader__preview-image {
+        width: 100%;
+        height: 100%;
+    }
+}
