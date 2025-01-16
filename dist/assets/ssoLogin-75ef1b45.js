@@ -1,0 +1,1 @@
+import"./http-39b4bd91.js";const o=()=>JSON.parse(localStorage.getItem("login_user_info")||"{}"),t=()=>{localStorage.removeItem("access_token"),localStorage.removeItem("login_user_info")};export{o as g,t as l};

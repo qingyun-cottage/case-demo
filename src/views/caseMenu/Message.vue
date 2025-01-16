@@ -140,14 +140,13 @@
 
                 .msg_text {
                     display: flex;
-                    padding: 10px 8px;
-                    justify-content: center;
                     align-items: center;
                     gap: 10px;
                     align-self: stretch;
 
-                    border-radius: 4px;
-                    background: #f1f6ff;
+                    &.send{
+                        flex-direction: row-reverse;
+                    }
 
                     color: var(--color-text-primary, #292c33);
                     font-family: PingFang SC;
@@ -155,6 +154,11 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: 22px; /* 146.667% */
+                    span {
+                        background: #f1f6ff;
+                        padding: 10px 8px;
+                        border-radius: 4px;
+                    }
                 }
             }
         }
@@ -279,7 +283,7 @@
                                 <span class="time">{{ item.time }}</span>
                             </div>
                         </div>
-                        <div class="msg_text">
+                        <div class="msg_text" :class="[item.type]">
                             <span>{{ item.msg }}</span>
                         </div>
                     </div>

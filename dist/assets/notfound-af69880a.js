@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as n,l as c,E as r}from"./index-345f71c0.js";/* empty css              */const a={};function s(_,m){const e=r;return t(),n("div",null,[c(e,{image:"network",description:"页面404"})])}const d=o(a,[["render",s]]);export{d as default};
