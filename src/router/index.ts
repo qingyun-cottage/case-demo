@@ -188,9 +188,9 @@ const routes: Array<RouteRecordRaw> = [
 const router = createRouter({
     routes,
     //路由模式：history
-    history: createWebHistory(''),
+    // history: createWebHistory('case-demo'),
     //路由模式：hash
-    // history:createWebHashHistory()
+    history:createWebHashHistory('#case-demo')
 })
 
 router.beforeEach((to, from, next) => {
