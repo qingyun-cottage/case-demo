@@ -8,8 +8,12 @@ import vant from 'vant'
 import 'vant/lib/index.css'
 // 适配rem
 import 'amfe-flexible'
+// import './my-amfe-flexible.js'
 // 引入全局样式
 import './style/index.less'
+
+// 引入桌面端模拟触摸事件
+import '@vant/touch-emulator'
 
 const app = createApp(App)
 app.use(router)

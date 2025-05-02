@@ -17,7 +17,8 @@
         #0d2459 100%
     );
     background: url(@/assets/images/banner-bg-other-darkblue.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
 
     .title {
         color: var(--color-white-100, #fff);

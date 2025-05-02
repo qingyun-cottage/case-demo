@@ -26,6 +26,8 @@
 body {
     font-family: BlinkMacSystemFont, HarmonyOS Sans SC, PingFang SC, system-ui,
         -apple-system, Helvetica, 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    width: 375px !important;
+    margin: 0 auto;
 }
 
 #app {
@@ -33,6 +35,14 @@ body {
     height: 100vh;
     font-size: 16px;
     // 字体
+}
+
+// 补丁
+.van-nav-bar {
+    width: 375px !important;
+}
+.fixed_btn_box {
+    width: 375px !important;
 }
 
 .icon_custom {
